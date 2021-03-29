@@ -18,7 +18,7 @@ https://github.com/tmiland/screencloud-nextcloud/archive/master.zip
 https://github.com/tmiland/screencloud-nextcloud/raw/master/plugin-list.xml
 ```
 
-Tested and working with Nextcloud 15.0.2, ScreenCloud 1.3.0 from Debian 9.0 repo on Ubuntu 18.10.
+Tested and working with Nextcloud 20.0.8, ScreenCloud 1.3.0 from Debian 9.0 repo on Ubuntu 20.04.2.
 
 PS: In "Server URL" use "https://nextcloud.domain.com", not the WebDAV url.
 
