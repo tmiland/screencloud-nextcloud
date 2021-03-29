@@ -498,8 +498,8 @@ class Client():
         stat_result = os.stat(local_source_file)
 
         headers = {}
-        if kwargs.get('keep_mtime', True):
-            headers['X-OC-MTIME'] = stat_result.st_mtime
+        # if kwargs.get('keep_mtime', True):
+        #     headers['X-OC-MTIME'] = stat_result.st_mtime
 
         if remote_path[-1] == '/':
             remote_path += os.path.basename(local_source_file)
@@ -571,8 +571,8 @@ class Client():
         file_handle.seek(0)
 
         headers = {}
-        if kwargs.get('keep_mtime', True):
-            headers['X-OC-MTIME'] = stat_result.st_mtime
+        # if kwargs.get('keep_mtime', True):
+        #     headers['X-OC-MTIME'] = stat_result.st_mtime
 
         if size == 0:
             return self.__make_dav_request(
