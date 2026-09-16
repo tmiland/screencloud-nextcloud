@@ -1,4 +1,6 @@
 # ScreenCloud - NextCloud
+[![Sponsor @tmiland](https://img.shields.io/badge/Sponsor-%40tmiland-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/tmiland)
+
 
 A NextCloud service plugin for ScreenCloud
 
